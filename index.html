@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arabic Language Expert</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="page-wrapper">
+    <div class="card">
+
+      <!-- HERO -->
+      <div class="hero">
+        <div class="arabic-watermark">ع</div>
+
+        <div class="hero-inner">
+          <!-- Profile photo -->
+          <div class="portrait-wrap">
+            <img src="photo.jpg" alt="Profile photo" class="portrait-img" />
+          </div>
+
+          <div class="hero-text">
+            <div class="badge">
+              <span class="dot"></span>
+              Native Arabic Speaker
+            </div>
+            <h1>Arabic Language<br><span class="gold">Expert &amp; Professional</span></h1>
+            <p class="tagline">
+              Accurate, culturally nuanced work — on time, every time.
+              Covering formal and colloquial registers across five dialects.
+            </p>
+            <div class="dialects">
+              <span class="dialect-tag">Modern Standard Arabic</span>
+              <span class="dialect-tag">Moroccan</span>
+              <span class="dialect-tag">Algerian</span>
+              <span class="dialect-tag">Tunisian</span>
+              <span class="dialect-tag">Gulf</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BODY -->
+      <div class="body">
+
+        <div class="section-label">Services</div>
+
+        <div class="services">
+
+          <div class="service-card" data-service="Translation">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24"><path d="M5 8h14M5 12h9M12 19l3-3-3-3"/><rect x="3" y="4" width="18" height="16" rx="2"/></svg>
+            </div>
+            <div class="service-title">Translation</div>
+            <div class="service-desc">Arabic ↔ English with precision and cultural sensitivity</div>
+          </div>
+
+          <div class="service-card" data-service="Transcription">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+            </div>
+            <div class="service-title">Transcription</div>
+            <div class="service-desc">Accurate audio-to-text including dialectal speech</div>
+          </div>
+
+          <div class="service-card" data-service="Localization">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </div>
+            <div class="service-title">Localization</div>
+            <div class="service-desc">Websites, apps, and software for Arabic-speaking audiences</div>
+          </div>
+
+          <div class="service-card" data-service="Proofreading & QA">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+            </div>
+            <div class="service-title">Proofreading &amp; QA</div>
+            <div class="service-desc">Consistency, fluency, and errors others miss</div>
+          </div>
+
+          <div class="service-card" data-service="Writing & Scripts">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+            </div>
+            <div class="service-title">Writing &amp; Scripts</div>
+            <div class="service-desc">Original Arabic content, scripts, and copywriting</div>
+          </div>
+
+          <div class="service-card" data-service="Data Annotation">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24"><path d="M4 6h16M4 10h16M4 14h8"/><circle cx="17" cy="17" r="3"/><path d="m20.5 20.5-1.5-1.5"/></svg>
+            </div>
+            <div class="service-title">Data Annotation</div>
+            <div class="service-desc">Arabic dataset labeling for AI and NLP projects</div>
+          </div>
+
+          <div class="service-card" data-service="Tutoring">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+            <div class="service-title">Tutoring</div>
+            <div class="service-desc">Personalized Arabic lessons for all levels</div>
+          </div>
+
+        </div>
+
+        <!-- CTA -->
+        <div class="cta-row">
+          <button class="cta-btn" id="ctaBtn">Send a message →</button>
+          <div class="cta-info">
+            <div class="cta-text">Let's talk about your goals — I'll get back to you promptly.</div>
+            <div class="arabic-accent">دعنا نتحدث عن أهدافك</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Toast notification -->
+    <div class="toast" id="toast"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
